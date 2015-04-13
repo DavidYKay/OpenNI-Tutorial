@@ -1,4 +1,4 @@
 env = Environment(CPPPATH=['/usr/local/include/OpenNI2', '../Common'])
 #env.Append( RPATH = env.Literal(os.path.join('\\$$ORIGIN', os.pardir, 'lib')))
-#env.Append( RPATH = '/usr/local/lib')
+env.Append( RPATH = '/usr/local/lib')
 env.Program('main.cpp', LIBS=['OpenNI2'], LIBPATH='/usr/local/lib')
