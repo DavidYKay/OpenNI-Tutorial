@@ -1,0 +1,2 @@
+#Program('main.cpp', LIBS=['SDL2'], LIBPATH='')
+Program('main.cpp', LIBS=['SDL2'])
