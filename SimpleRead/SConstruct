@@ -1,1 +1,3 @@
-Program('hello.c')
+Program('main.cpp', LIBS=['OpenNI2', 'OpenNI'], LIBPATH='/usr/lib/')
+
+
