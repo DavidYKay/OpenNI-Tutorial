@@ -1,2 +1,4 @@
-Program('main.cpp', LIBS=['SDL2'], LIBPATH='.')
+#Program('main.cpp', LIBS=['SDL2'], LIBPATH='.')
+
+Program('main.cpp', LIBS=['SDL2'], LIBPATH='/home/dk/Downloads/sdl/SDL2-2.0.3/build/.libs')
 #Program('main.cpp', LIBS=['SDL2'])
