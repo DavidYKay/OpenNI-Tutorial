@@ -1,3 +1,4 @@
-Program('main.cpp', LIBS=['OpenNI2', 'OpenNI'], LIBPATH='/usr/lib/')
+#Program('main.cpp', LIBS=['OpenNI2', 'OpenNI'], LIBPATH='/usr/lib/')
+Program('main.cpp', LIBS=['OpenNI2', 'OpenNI'], LIBPATH='.')
 
 

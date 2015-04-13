@@ -19,7 +19,8 @@
 *                                                                            *
 *****************************************************************************/
 #include <stdio.h>
-#include <OpenNI.h>
+// #include <OpenNI.h>
+#include <OpenNI2/OpenNI.h>
 
 #include "OniSampleUtilities.h"
 

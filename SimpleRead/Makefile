@@ -1,4 +1,4 @@
-include ../../ThirdParty/PSCommon/BuildSystem/CommonDefs.mak
+include ../buildCommon/CommonDefs.mak
 
 BIN_DIR = ../../Bin
 
@@ -14,4 +14,4 @@ EXE_NAME = SimpleRead
 
 CFLAGS += -Wall
 
-include ../../ThirdParty/PSCommon/BuildSystem/CommonCppMakefile
+include ../buildCommon/CommonCppMakefile
